@@ -1,64 +1,62 @@
-# KernelVoltage
+# Game Projects
 
-Central request hub and directory for open-source web applications, Godot game architecture, and software utilities. Everything built here focuses on clean execution, local privacy, zero backend tracking, and solving practical developer problems.
-
----
-
-## Community Requests & Idea Dispatch
-
-If you need a custom web utility, lightweight automation script, Godot game component, or UI layout, submit your request directly to this repository. All custom tools are built for free and released as open-source projects.
-
-### How to Request a Tool or Asset
-1. Open a request thread using the link below.
-2. Describe the feature, utility, or problem you are trying to solve.
-3. Include any specific technical requirements or target platforms.
-4. The request will be reviewed, built, and cataloged in the appropriate directory.
-
-- **Submit a Request or Share an Idea:** [Open a Request Ticket](https://github.com/KernelVoltage/KernelVoltage/issues/new)
+Central repository for Godot games, interactive web demos, mechanics prototypes, and 2D asset packages.
 
 ---
 
-## Interconnected Ecosystem Directories
+## Active Game Directory
 
-### Web Applications
-
-| Project / Directory | Primary Function | Live Application | Source Repository |
-| :--- | :--- | :--- | :--- |
-| **Web Projects Hub** | Central directory holding all web tools, client-side applications, and utilities. | N/A | [View Web Projects](https://github.com/KernelVoltage/web-projects) |
-| **Omni-Engine** | Browser-based client-side image compression tool with zero server data transfer. | [Open Application](https://omni-engine-mu.vercel.app) | [View Repository](https://github.com/KernelVoltage/omni-engine) |
-
-### Game Development & Architecture
-
-| Directory / Project | Focus & Description | Target Platform | Source Repository |
-| :--- | :--- | :--- | :--- |
-| **Game Projects Hub** | Central directory holding Godot game builds, reusable scripts, and asset packages. | Web HTML5 & Desktop | [View Game Hub](https://github.com/KernelVoltage/game-projects) |
-| **Space Shooter** | Top-down 2D arcade shooter built with Godot 4.x featuring 11 procedural levels and full Poki compliance. | Web HTML5 & Desktop | [View Repository](https://github.com/KernelVoltage/space_shooter) |
+| Game Title | Engine / Target | Web Demo (Poki) | Asset Downloads (Itch.io) | Source Repository |
+| :--- | :--- | :--- | :--- | :--- |
+| **Space Shooter** | Godot 4.x (Web / Desktop) | Pending Deployment | Pending Upload | [View Source Code](https://github.com/KernelVoltage/space_shooter) |
+| **2D Starter Kit** | Godot 4.x (Template) | N/A | Pending Upload | In Progress |
 
 ---
 
-## Network Cross-Link Architecture
+## Architecture & Development Standards
 
-Every repository inside the KernelVoltage network is bi-directionally linked to ensure visitors can navigate between live deployments, source code bases, and the central issue tracker without losing context.
+Projects hosted inside this directory adhere to strict software development standards:
+
+- **Godot 4.x GDScript Focus:** Clean node structure, signal-driven communications, and decoupled script logic.
+- **Poki Platform Compliance:** Zero external link calls, strict WebAudio driver usage, and standard cursor handling.
+- **Procedural Asset Pipeline:** Dynamic color modulation, runtime scale scaling, and behavior math to keep HTML5 export sizes small.
+- **Memory Garbage Collection:** Explicit signal cleanup on tree exit and automated boundary destruction for off-screen projectiles.
+
+---
+
+## Target Distribution Channels
+
+- **Web HTML5 Platforms:** Optimized for web distribution on Poki and browser portals.
+- **Asset Packages:** Sprites, Godot project templates, and UI layouts distributed via Itch.io.
+- **Open Source Repositories:** Full project codebases hosted on GitHub for public inspection and learning.
+
+---
+
+## Request Custom Game Components
+
+If you need a specific Godot script, 2D player controller, UI menu template, or game mechanics prototype, submit a request through the main hub.
+
+1. Open a request ticket on the central repository.
+2. Detail your target Godot version and requested mechanics.
+3. The component will be built and released inside this repository.
+
+- **Request a Game Component:** [Open a Request Ticket](https://github.com/KernelVoltage/KernelVoltage/issues/new)
+
+---
+
+## Local Project Setup
+
+1. Clone the desired game repository:
+   git clone https://github.com/KernelVoltage/space_shooter.git
+
+2. Open Godot Engine 4.x and import the cloned folder.
+3. Select the main scene and run the project.
+
+---
+
+## Network Navigation & Cross-Links
 
 - **Central Request Hub:** [KernelVoltage Main Repository](https://github.com/KernelVoltage/KernelVoltage)
 - **Web Applications Hub:** [Web Projects Repository](https://github.com/KernelVoltage/web-projects)
-- **Game Projects Hub:** [Game Projects Repository](https://github.com/KernelVoltage/game-projects)
-- **Omni-Engine Repository:** [Omni-Engine Tool](https://github.com/KernelVoltage/omni-engine)
-- **Space Shooter Repository:** [Space Shooter Game](https://github.com/KernelVoltage/space_shooter)
-
----
-
-## Technical Standards
-
-Software built across all repositories follows strict development guidelines:
-
-- **Offline-First:** Processing runs locally inside the user browser or game client whenever possible.
-- **Zero External Overhead:** Games and web tools maintain compliance with distribution platforms by eliminating unnecessary external calls.
-- **Modular Codebase:** Scripts are written with clean, decoupled logic to allow easy code reuse across projects.
-
----
-
-## Ecosystem Navigation
-
-- **Browse All Repositories:** [View Full GitHub Directory](https://github.com/KernelVoltage?tab=repositories)
-- **Track Open Tickets:** [View Active Request Threads](https://github.com/KernelVoltage/KernelVoltage/issues)
+- **Space Shooter Game:** [Space Shooter Repository](https://github.com/KernelVoltage/space_shooter)
+- **Public Codebase Directory:** [Browse All Repositories](https://github.com/KernelVoltage?tab=repositories)
