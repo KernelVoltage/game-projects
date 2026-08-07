@@ -1,74 +1,64 @@
-# Game Projects Hub
+# KernelVoltage
 
-Central container repository for game developments, Godot engine templates, interactive web demos, and game assets.
-
----
-
-**Container Overview**
-
-This directory catalogs all active game builds, playable HTML5 exports, asset packages, and engine prototypes developed under the KernelVoltage ecosystem. Every project listed here maintains source code transparency and modular asset design.
+Central request hub and directory for open-source web applications, Godot game architecture, and software utilities. Everything built here focuses on clean execution, local privacy, zero backend tracking, and solving practical developer problems.
 
 ---
 
-**Active Game Directory**
+## Community Requests & Idea Dispatch
 
-| Game Title | Engine / Platform | Playable Demo (Poki / Web) | Assets & Downloads (Itch.io) | Source Repository |
-| :--- | :--- | :--- | :--- | :--- |
-| **Space Shooter** | Godot 4.x (Web / Desktop) | [Play Web Demo](https://poki.com) | [Itch.io Assets Page](https://itch.io) | [View Code](https://github.com/KernelVoltage/space_shooter) |
-| **Godot 2D Starter Kit** | Godot 4.x (Engine Template) | N/A | [Download Package](https://itch.io) | In Progress |
+If you need a custom web utility, lightweight automation script, Godot game component, or UI layout, submit your request directly to this repository. All custom tools are built for free and released as open-source projects.
 
----
+### How to Request a Tool or Asset
+1. Open a request thread using the link below.
+2. Describe the feature, utility, or problem you are trying to solve.
+3. Include any specific technical requirements or target platforms.
+4. The request will be reviewed, built, and cataloged in the appropriate directory.
 
-**Engine & Architecture Standards**
-
-Projects hosted in this container adhere to core game engineering principles:
-
-- **Godot Engine Focus:** Primary development utilizing GDScript and Godot 4.x node hierarchy.
-- **Poki Platform Compliance:** Zero external link calls, strict WebAudio driver integration, and safe cursor handling.
-- **Procedural Asset Pipeline:** Dynamic color modulation, runtime scale adjustments, and procedural behavior variations to minimize export build sizes.
-- **Clean Memory Management:** Explicit signal disconnection on tree exit and automated boundary cleanup for instantiated projectiles.
+- **Submit a Request or Share an Idea:** [Open a Request Ticket](https://github.com/KernelVoltage/KernelVoltage/issues/new)
 
 ---
 
-**Target Platforms & Distribution**
+## Interconnected Ecosystem Directories
 
-- **Web Platforms:** Optimized for HTML5 browser play on platforms like Poki and Itch.io.
-- **Desktop Executables:** Native builds for Windows, Linux, and macOS platforms.
-- **Standalone Assets:** Game assets, sprites, and Godot script packages distributed on Itch.io.
+### Web Applications
 
----
+| Project / Directory | Primary Function | Live Application | Source Repository |
+| :--- | :--- | :--- | :--- |
+| **Web Projects Hub** | Central directory holding all web tools, client-side applications, and utilities. | N/A | [View Web Projects](https://github.com/KernelVoltage/web-projects) |
+| **Omni-Engine** | Browser-based client-side image compression tool with zero server data transfer. | [Open Application](https://omni-engine-mu.vercel.app) | [View Repository](https://github.com/KernelVoltage/omni-engine) |
 
-**Request Custom Game Components**
+### Game Development & Architecture
 
-If you need a specific Godot script, 2D mechanics prototype, custom UI menu layout, or game asset package, submit your request through the central hub.
-
-1. Open a request thread on the central repository.
-2. Detail your target game engine version and required mechanics.
-3. Approved builds and templates will be published inside this container.
-
-- **Submit Game Request:** [Open a Request Ticket](https://github.com/KernelVoltage/KernelVoltage/issues/new)
+| Directory / Project | Focus & Description | Target Platform | Source Repository |
+| :--- | :--- | :--- | :--- |
+| **Game Projects Hub** | Central directory holding Godot game builds, reusable scripts, and asset packages. | Web HTML5 & Desktop | [View Game Hub](https://github.com/KernelVoltage/game-projects) |
+| **Space Shooter** | Top-down 2D arcade shooter built with Godot 4.x featuring 11 procedural levels and full Poki compliance. | Web HTML5 & Desktop | [View Repository](https://github.com/KernelVoltage/space_shooter) |
 
 ---
 
-**Local Game Setup & Execution**
+## Network Cross-Link Architecture
 
-To inspect or run any game codebase locally on your machine:
-
-1. Clone the specific game repository from this container:
-   git clone https://github.com/KernelVoltage/space_shooter.git
-
-2. Launch Godot Engine 4.x.
-3. Click Import, select the project.godot file inside the cloned directory, and open.
-
----
-
-**Ecosystem & Container Cross-Links**
+Every repository inside the KernelVoltage network is bi-directionally linked to ensure visitors can navigate between live deployments, source code bases, and the central issue tracker without losing context.
 
 - **Central Request Hub:** [KernelVoltage Main Repository](https://github.com/KernelVoltage/KernelVoltage)
-- **Web Applications Container:** [Omni-Engine Repository](https://github.com/KernelVoltage/omni-engine)
-- **Space Shooter Codebase:** [Space Shooter Repository](https://github.com/KernelVoltage/space_shooter)
-- **Public Code Directory:** [Full Repository List](https://github.com/KernelVoltage?tab=repositories)
+- **Web Applications Hub:** [Web Projects Repository](https://github.com/KernelVoltage/web-projects)
+- **Game Projects Hub:** [Game Projects Repository](https://github.com/KernelVoltage/game-projects)
+- **Omni-Engine Repository:** [Omni-Engine Tool](https://github.com/KernelVoltage/omni-engine)
+- **Space Shooter Repository:** [Space Shooter Game](https://github.com/KernelVoltage/space_shooter)
 
 ---
 
-*Maintained by KernelVoltage. Independent game architecture and open-source assets.*
+## Technical Standards
+
+Software built across all repositories follows strict development guidelines:
+
+- **Offline-First:** Processing runs locally inside the user browser or game client whenever possible.
+- **Zero External Overhead:** Games and web tools maintain compliance with distribution platforms by eliminating unnecessary external calls.
+- **Modular Codebase:** Scripts are written with clean, decoupled logic to allow easy code reuse across projects.
+
+---
+
+## Ecosystem Navigation
+
+- **Browse All Repositories:** [View Full GitHub Directory](https://github.com/KernelVoltage?tab=repositories)
+- **Track Open Tickets:** [View Active Request Threads](https://github.com/KernelVoltage/KernelVoltage/issues)
