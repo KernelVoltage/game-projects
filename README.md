@@ -1,62 +1,49 @@
-# Game Projects
+# Game Projects & Technical Assets
 
-Central repository for Godot games, interactive web demos, mechanics prototypes, and 2D asset packages.
+Central directory for Godot 4 games, interactive browser builds, core mechanics prototypes, and lightweight 2D asset packages.
 
 ---
 
-## Active Game Directory
+## Active Project Directory
 
-| Game Title | Engine / Target | Web Demo (Poki) | Asset Downloads (Itch.io) | Source Repository |
+| Project Title | Engine / Target | Live Web Demo | Asset Downloads (Itch.io) | Source Repository |
 | :--- | :--- | :--- | :--- | :--- |
-| **Space Shooter** | Godot 4.x (Web / Desktop) | Pending Deployment | Pending Upload | [View Source Code](https://github.com/KernelVoltage/space_shooter) |
+| **Space Shooter** | Godot 4.x (Web / Desktop) | Pending Deployment | Pending Upload | [View Source](https://github.com/KernelVoltage/space_shooter) |
 | **2D Starter Kit** | Godot 4.x (Template) | N/A | Pending Upload | In Progress |
 
 ---
 
 ## Architecture & Development Standards
 
-Projects hosted inside this directory adhere to strict software development standards:
+All game builds and engine components hosted in this directory adhere to strict performance-first, client-side development standards:
 
-- **Godot 4.x GDScript Focus:** Clean node structure, signal-driven communications, and decoupled script logic.
-- **Poki Platform Compliance:** Zero external link calls, strict WebAudio driver usage, and standard cursor handling.
-- **Procedural Asset Pipeline:** Dynamic color modulation, runtime scale scaling, and behavior math to keep HTML5 export sizes small.
-- **Memory Garbage Collection:** Explicit signal cleanup on tree exit and automated boundary destruction for off-screen projectiles.
+* **Godot 4.x GDScript Core:** Clean node hierarchies, signal-driven decoupling, and zero-memory-leak event patterns.
+* **Web Platform Compliance:** Adaptive canvas scaling, WebAudio driver optimizations, unified input handling, and zero hardcoded external network calls.
+* **Procedural Asset Pipeline:** Runtime color modulation, dynamic scale scaling, and behavior math to maintain ultra-compact HTML5 bundle sizes.
+* **Memory & Garbage Management:** Explicit signal cleanup on node deletion (`tree_exited`) and automated boundary sweeps for off-screen projectiles and visual effects.
 
 ---
 
 ## Target Distribution Channels
 
-- **Web HTML5 Platforms:** Optimized for web distribution on Poki and browser portals.
-- **Asset Packages:** Sprites, Godot project templates, and UI layouts distributed via Itch.io.
-- **Open Source Repositories:** Full project codebases hosted on GitHub for public inspection and learning.
+* **HTML5 Web Portals:** Optimized for instant browser execution across desktop and mobile browsers.
+* **Developer Asset Packs:** High-quality sprites, modular project templates, and UI frameworks distributed via Itch.io.
+* **Open Source Repositories:** Full production codebases hosted publicly on GitHub for community inspection, contribution, and reference.
 
 ---
 
-## Request Custom Game Components
+## Request Custom Components & Mechanics
 
-If you need a specific Godot script, 2D player controller, UI menu template, or game mechanics prototype, submit a request through the main hub.
+Need a specialized Godot script, player controller, UI system, or gameplay mechanic prototype? Submit a request ticket directly through the main ecosystem hub:
 
-1. Open a request ticket on the central repository.
-2. Detail your target Godot version and requested mechanics.
-3. The component will be built and released inside this repository.
-
-- **Request a Game Component:** [Open a Request Ticket](https://github.com/KernelVoltage/KernelVoltage/issues/new)
+1. [Open a Request Ticket](https://github.com/KernelVoltage/KernelVoltage/issues/new) on the central repository.
+2. Specify your target Godot version (e.g., Godot 4.x) and key functional requirements.
+3. The component will be engineered, documented, and released open-source inside this repository.
 
 ---
 
-## Local Project Setup
+## Local Setup & Development
 
-1. Clone the desired game repository:
-   git clone https://github.com/KernelVoltage/space_shooter.git
-
-2. Open Godot Engine 4.x and import the cloned folder.
-3. Select the main scene and run the project.
-
----
-
-## Network Navigation & Cross-Links
-
-- **Central Request Hub:** [KernelVoltage Main Repository](https://github.com/KernelVoltage/KernelVoltage)
-- **Web Applications Hub:** [Web Projects Repository](https://github.com/KernelVoltage/web-projects)
-- **Space Shooter Game:** [Space Shooter Repository](https://github.com/KernelVoltage/space_shooter)
-- **Public Codebase Directory:** [Browse All Repositories](https://github.com/KernelVoltage?tab=repositories)
+1. Clone the project repository:
+   ```bash
+   git clone [https://github.com/KernelVoltage/space_shooter.git](https://github.com/KernelVoltage/space_shooter.git)
