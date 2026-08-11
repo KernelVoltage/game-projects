@@ -40,10 +40,3 @@ Need a specialized Godot script, player controller, UI system, or gameplay mecha
 2. Specify your target Godot version (e.g., Godot 4.x) and key functional requirements.
 3. The component will be engineered, documented, and released open-source inside this repository.
 
----
-
-## Local Setup & Development
-
-1. Clone the project repository:
-   ```bash
-   git clone [https://github.com/KernelVoltage/space_shooter.git](https://github.com/KernelVoltage/space_shooter.git)
