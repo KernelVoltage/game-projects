@@ -8,7 +8,7 @@ Central directory for Godot 4 games, interactive browser builds, core mechanics 
 
 | Project Title | Engine / Target | Live Web Demo | Asset Downloads (Itch.io) | Source Repository |
 | :--- | :--- | :--- | :--- | :--- |
-| **Space Shooter** | Godot 4.x (Web / Desktop) | Pending Deployment | Pending Upload | [View Source](https://github.com/KernelVoltage/space_shooter) |
+| **Space Shooter** | Godot 4.x (Web / Desktop) | Pending Deployment | Pending Upload (https://kernelvoltage.itch.io/space-shooter) | [View Source](https://github.com/KernelVoltage/space_shooter) |
 | **2D Starter Kit** | Godot 4.x (Template) | N/A | Pending Upload | In Progress |
 
 ---
